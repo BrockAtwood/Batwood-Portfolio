@@ -10,24 +10,25 @@
 
   <body>
     <header>
-      <h1>Brock Atwood</h1>
-      <a href=""></a
-      ><img
-        src="./Assets/portfolio recent photo.jpeg"
-        alt="Picture of the Developer"
-      />
-      <nav>
-        <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact Me</a></li>
-          <li><a href="#">Fun Facts</a></li>
-        </ul>
-      </nav>
+      <h1 class="header">
+        Brock Atwood
+        <nav>
+          <ul>
+            <li>
+              <a href=""></a><img src="./Assets/portfolio recent photo.jpeg"
+              alt="Picture of the Developer" width="163" height="200"
+            </li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+            <li><a href="#funfacts">Fun Facts</a></li>
+          </ul>
+        </nav>
+      </h1>
     </header>
-    <main>
-      <section>
-        <h2>About Me</h2>
+    <section>
+      <article>
+        <h2 id="aboutme">About Me</h2>
         <p>
           My name is Brock Atwood. I am a former Middle & High School Algebra
           and Geometry teacher. I have taught for over 9 years now.
@@ -38,7 +39,9 @@
           hoping to continue my learning and growth towards Cyber Security. I
           also have some interest in Coding of video games.
         </p>
-        <h2>Work</h2>
+      </article>
+      <div>
+        <h2 id="work">Work</h2>
         <p>Boot camp First Project</p>
         <a
           href="https://github.com/BrockAtwood/code-refractory"
@@ -53,14 +56,23 @@
           href="https://github.com/BrockAtwood/Batwood-Portfolio"
           target="no_blank"
         >
-          <img src="./Assets/picturetwo.jpeg" alt="Portfolio Homework #2"
+          <img
+            src="./Assets/picturetwo.jpeg"
+            alt="Portfolio Homework #2"
+            width="163"
+            height="200"
         /></a>
         <p>Boot camp Third Project</p>
         <a href="https://unsplash.com/s/photos/password" target="no_blank">
-          <img src="./Assets/passwordgenerator.jpeg" alt="Password Generator"
+          <img
+            src="./Assets/passwordgenerator.jpeg"
+            alt="Password Generator"
+            width="163"
+            height="200"
         /></a>
-
-        <h2>Contact Me</h2>
+      </div>
+      <article>
+        <h2 id="contactme">Contact Me</h2>
         <p>Phone #: (802)-318-6522</p>
         <p>
           Email:
@@ -68,8 +80,9 @@
             >brockatwood@gmail.com</a
           >
         </p>
-
-        <h2>Fun Facts</h2>
+      </article>
+      <div>
+        <h2 id="funfacts">Fun Facts</h2>
         <p>
           I love to mountain bike, run, hike, climb, play disc golf, yoga, and
           skydive. I use to be a certified yoga instructor years ago. I also use
@@ -86,7 +99,7 @@
               alt="Early coach jumps 6-8 of AFF school"
           /></a>
         </p>
-      </section>
-    </main>
+      </div>
+    </section>
   </body>
 </html>
