@@ -8,4 +8,6 @@ Work Portfolio Start-Up
 
 - Next, create and add images for work section as well as a link to the first project GiHub webpage.
 
--
+- Next, created contact me section with phone number and linked email.
+
+- Next, created Fun Facts, with discription, photos and links to skydiving video.
